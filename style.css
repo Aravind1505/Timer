@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: linear-gradient(to top right, lightblue, darkblue); */
+    /* background-image: linear-gradient(to top right, #085E7D  , #008E89); */
+    background-color: #008E89;
+    margin: 0px;
+    min-height: 100vh;
+    min-width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: #03045E;
+}
+
+.appContainer{
+    width: auto;
+    height: auto;
+    background-color: #FFD32D;
+    border-radius: 10px;
+    padding: 0.5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.timerContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.timerItems{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: #008E89; */
+    border-radius: 10px;
+    margin: 0rem 2rem;
+}
+
+.timerItems span{
+    font-size: 1.5rem;
+}
+
+.appTitle{
+    font-size: 4rem;
+}
+
+.textBold{
+    font-size: 6rem;
+    line-height: 1;
+    margin : 1rem 2rem;
+}
